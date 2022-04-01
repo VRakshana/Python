@@ -43,6 +43,10 @@ Today is: 9-13-2021
 Hint:
 datetime is a method to format a date in Python. You can convert a date into any possible desired format by using this method. strftime method is used to create a string representing the date under the control of explicit format string.
 
+import datetime
+today = datetime.date.today()
+print("Today is ", today)
+
 3.Define a new class called Person. Using the Python naming convention, add the following properties to the Person class:
 
 Name: Bob
